@@ -1,0 +1,236 @@
+[gui]
+exit:   "EXIT"
+menu:   "MENU"
+play:   "PLAY"
+
+
+# INTRO
+[intro]
+say0:   "Urgh, my head is killing me.\nI shouldn’t have drunk so much\nyesterday."
+say1:   " \nWait..."
+say2:   " \nOh no!\n \nThe Linux Game Jam 2019™\nends today!.."
+say3:   " \nAnd I haven't even\nstarted working\non my entry!!!"
+say4:   " \n \n \n \n~ Click to continue... ~"
+
+[outro]
+say0: "Let's..."
+say1: " \nBEGIN!\n \n"
+
+[the_end]
+say0:   "$ THE END_"
+say1:   " \n \n \n \n~ Click to exit... ~"
+
+# ITEMS
+
+[beer]
+name:   "bottle of beer"
+look:   "Eww, it's awfully warm!"
+use:    "I'm not wasting it like that."
+
+[beer_cold]
+name:   "bottle of cold beer"
+look:   "Nice and cold."
+use:    "I'll need snacks."
+
+[chips]
+name:   "potato chips"
+look:   "Whoa, it's 'Swiss Special' with\na bonus Swiss Army knife inside!"
+use:    "Too dry to eat it like that."
+
+[food]
+use:    "Oh yiss."
+
+[fire_extinguisher]
+name:   "fire extinguisher"
+look:   "Thankfully,\nit's not made in Britain."
+use:    "It's one-use only.\nI'd better not waste it."
+
+[fire_extinguisher_empty]
+name:   "empty fire extinguisher"
+look:   "It's empty."
+use:    "What am I supposed\nto do with it?"
+
+[knife]
+name:   "swiss army knife"
+look:   "Hopefully, it has\na Phillips head screwdriver in it."
+
+[mouse]
+name:   "dead mouse"
+look:   "I'm not a fan\nof electronic music."
+use:    "My imagination\nisn't *that* good."
+
+[wallet]
+name:   "wallet"
+look:   "It's empty."
+use:    "What for?"
+
+[wallet_with_money]
+name:   "money"
+look:   "A social construct."
+use:    "No way!"
+
+
+# ROOM
+
+[bed]
+name:   "bed"
+look:   "I already miss\nyour soothing touch."
+use:    "I've had plenty!"
+
+[computer]
+name:   "computer"
+look:   "My precious..."
+use:    "It's not plugged in."
+with_wallet_with_money: "There's no Steam sale today."
+plug:   "Uh, oh..."
+
+[computer_burning]
+name:   "computer on fire"
+look:   "This is fine."
+use:    "If only I could email the fire station."
+with_fire_extinguisher: "Here you go!"
+
+[computer_broken]
+name:   "broken computer"
+look:   "It looks even better in black."
+use:    "I need to fix it ASAP!"
+with_knife: "Finally watching all these\nYouTube tutorials paid off!"
+
+[computer_fixed]
+name:   "computer"
+look:   "It's fixed at last!"
+use:    "I'm too hungry to work!"
+
+[door]
+name:   "door"
+look:   "How's it knocking?"
+use:    "Maybe fresh air\nwill help me."
+
+[fridge]
+name:   "fridge"
+look:   "Cool."
+use:    "Damn, there's\nnothing inside."
+with_beer: "Whoa, that was quick."
+with_beer_cold: "Just as I like it."
+
+[note]
+name:   "note"
+look:   "The Linux Game Jam 2019™ ends today!\nI have less than 24 hours!"
+use:    "It's there for a reason."
+
+[piggy_bank]
+name:   "piggy bank"
+look:   "Why do I even\nhave this thing?"
+use:    "$20? Nice!"
+
+[plug]
+name:   "plug"
+look:   "Here you are!"
+use:    "All right, let's do this!"
+
+[poster]
+name:   "poster"
+look:   "In Tux we trust."
+use:    "It looks better\non the wall."
+
+[shelf]
+name:   "bookshelf"
+look:   "Why is it placed so high?"
+use:    "I have no time\nfor reading right now."
+
+[window]
+name:   "window"
+look:   "Nice weather today."
+use:    "I'd better stick\nto more traditional ways\nof leaving the house."
+
+
+# STREET
+
+[bottle]
+name:   "bottle of beer"
+look:   "It's almost full."
+use:   "It'll definitely\nwake him up."
+with_fire_extinguisher_empty: "I'm sorry, man."
+
+[cardboard]
+name:   "cardboard"
+look:   "The dumpster is right there.\nWhy are people so lazy?"
+use:    "It's alive!"
+
+[dumpster]
+name:   "dumpster"
+look:   "A reasonably sized dumpster.\nNice."
+use:    "Oh, what do we have here?"
+use2:   "I've already got one."
+
+[graffiti]
+name:   "graffiti"
+look:   "Amen."
+use:    "It already looks good."
+
+[hobo]
+name:   "sleeping hobo"
+look:   "He looks happy."
+use:    "I don't wanna wake him up."
+
+[house]
+name:   "house"
+look:   "It's my house."
+use:    "Back\nto work!"
+
+[store]
+name:   "grocery store"
+look:   "It's a local grocery store."
+use:    "Let's check it out."
+
+
+# STORE
+
+[bread]
+name:   "bread"
+look:   "No grain - no gain."
+use:    "No, thanks.\nI'm lactose intolerant."
+
+[cheese]
+name:   "cheese"
+look:   "Tastes best with a side\nof spicy meatballs."
+use:    "I don't think it's gluten free.\nI'll pass."
+
+[clerk]
+name:   "clerk"
+look:   "She seems nice."
+use:    "I don't think\nshe's gonna appreciate it."
+say:    "Can I help you?"
+use1:   "Ma'am, there's a mouse right there."
+say1:   "Oh my god! I'm so sorry."
+with_money: "A bag of chips, please."
+say_money: "Here you go, pumpkin."
+
+[chips_stand]
+name:   "potato chips"
+look:   "Mmm, potato chips..."
+use:    "I'm gonna buy that."
+
+[fire_extinguisher_stand]
+name:   "fire extinguisher"
+look:   "I hope it's not\nmade in Britain."
+use:    ""
+say:    "Don't touch it, sweetie."
+use1:   "I hope\nit comes\nin handy."
+
+[store_door]
+name: "exit"
+look: "It's the door outside."
+use: "Nice weather today."
+
+[veggies]
+name:   "veggies"
+look:   "That looks gross."
+use:    "I'm not gonna eat that."
+with_mouse: "Looks like meat's\nback on the menu, boys!"
+
+[veggies_with_mouse]
+name:   "veggies with a dead mouse on top"
+look:   "It almost blends in."
+use:    "Are you kidding me?"
+
