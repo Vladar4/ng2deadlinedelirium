@@ -3,7 +3,7 @@ Deadline Delirium
 
 [The Linux Game Jam 2019](https://itch.io/jam/linux-game-jam-2019) participant.
 
-![cover](cover.jpg)
+![cover](cover.png)
 
 Requirements
 ------------
